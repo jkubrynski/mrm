@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Meetup Randomizing Machine</title>
+    <style>
+      body {
+        min-width: 357px;
+        overflow-x: hidden;
+      }
+
+      img {
+        margin: 5px;
+        border: 2px solid black;
+        vertical-align: middle;
+        width: 75px;
+        height: 75px;
+      }
+      
+      #removeKey {
+        font-size:0.7em;
+      }
+      
+      p {
+        font-size:1.3em;
+      	margin-top:0;
+      	margin-bottom:0;
+      	color:red;
+      }
+    </style>
+
+    <script src="jquery-1.9.1.min.js"></script>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+  <div id="results"/>
+	<a href='#' id='remove_key' onclick="removeApiKey()">Remove API key</a>
+  </body>
+</html>
+
